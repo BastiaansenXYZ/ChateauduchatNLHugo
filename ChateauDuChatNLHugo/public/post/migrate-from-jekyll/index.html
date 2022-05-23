@@ -1,151 +1,101 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        
+<html><meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Migrate from Jekyll</title>
-        
-        <style>
-
-    html body {
-        font-family: 'Raleway', sans-serif;
-        background-color: white;
-    }
-
-    :root {
-        --accent: red;
-        --border-width:  5px ;
-    }
-
-</style>
+<title>Migrate from Jekyll</title>
 
 
-<link rel="stylesheet" href="http://example.com/css/main.css">
+  <link rel="shortcut icon" href="https://example.com/images/favicon.png" type="image/png"
+/>
 
 
+  <meta name="description" content="Nutrition Coach &amp; Chef Consultant"
+/>
+
+  <meta name="keywords" content="some, keywords, for, seo, you, know, google, duckduckgo, and, such"
+/>
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="https://example.com/css/screen.css" />
+<link rel="stylesheet" href="https://example.com/css/fonts.css" type="text/css" />
+<link
+  rel="stylesheet"
+  href="https://example.com/fork-awesome/css/fork-awesome.min.css"
+  type="text/css"
+/>
+
+<meta property="og:title" content="Migrate from Jekyll" />
+<meta property="og:description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/▾ images/logo.png should become
+▾ &lt;root&gt;/▾ static/▾ images/logo.png Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/post/migrate-from-jekyll/" /><meta property="og:image" content="https://example.com/images/cover-image.jpg"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2014-03-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-03-10T00:00:00+00:00" /><meta property="og:site_name" content="Jane Doe - Nutrition Coach &amp; Chef Consultant" />
 
 
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/images/cover-image.jpg"/>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<meta name="twitter:title" content="Migrate from Jekyll"/>
+<meta name="twitter:description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/▾ images/logo.png should become
+▾ &lt;root&gt;/▾ static/▾ images/logo.png Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static."/>
 
-
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
- 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
-    
-    <script>hljs.initHighlightingOnLoad();</script>
-
-
+<meta itemprop="name" content="Migrate from Jekyll">
+<meta itemprop="description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/▾ images/logo.png should become
+▾ &lt;root&gt;/▾ static/▾ images/logo.png Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static."><meta itemprop="datePublished" content="2014-03-10T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2014-03-10T00:00:00+00:00" />
+<meta itemprop="wordCount" content="813"><meta itemprop="image" content="https://example.com/images/cover-image.jpg"/>
+<meta itemprop="keywords" content="go,golang,hugo,jekyll,static-site-generator," />
 
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.98.0" />
-        
-
-        
-
-        
-            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        
-
-        
-
-    </head>
-
-    <body>
-        
-
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Migrate from Jekyll</a>
-                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse">
-                    
-                        <ul class="nav navbar-nav">
-                            
-                                <li><a href="/">Home</a></li>
-                            
-                                <li><a href="/about/">About</a></li>
-                            
-                                <li><a href="/post/">Posts</a></li>
-                            
-                                <li><a href="/project/">Projects</a></li>
-                            
-                        </ul>
-                    
-                    
-                        <ul class="nav navbar-nav navbar-right">
-                            
-                                <li class="navbar-icon"><a href="mailto:me@example.com"><i class="fas fa-envelope"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://github.com/username/"><i class="fab fa-github"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://twitter.com/username/"><i class="fab fa-twitter"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/username/"><i class="fab fa-linkedin"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://www.stackoverflow.com/username/"><i class="fab fa-stack-overflow"></i></a></li>
-                            
-                        </ul>
-                    
-                </div>
-            </div>
-        </nav>
 
 
-<main>
-
-    <div>
-        <h2>Migrate from Jekyll</h2>
-        <h5>March 10, 2014</h5>
-        
-<a href="http://example.com/tags/go"><kbd class="item-tag">go</kbd></a>
-
-<a href="http://example.com/tags/golang"><kbd class="item-tag">golang</kbd></a>
-
-<a href="http://example.com/tags/hugo"><kbd class="item-tag">hugo</kbd></a>
-
-<a href="http://example.com/tags/jekyll"><kbd class="item-tag">jekyll</kbd></a>
-
-<a href="http://example.com/tags/static-site-generator"><kbd class="item-tag">static-site-generator</kbd></a>
 
 
-    </div>
 
-    <div align="start" class="content"><h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
+
+
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="https://example.com/images/apple-touch-icon.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="https://example.com/images/favicon-32x32.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="https://example.com/images/favicon-16x16.png"
+/>
+<body>
+  <main class="content page-template page-" role="main">
+    <article class="post page">
+      <header class="post-header">
+        <a id="blog-logo" href="/">
+          Jane Doe - Nutrition Coach &amp; Chef Consultant
+        </a>
+      </header>
+      <h1 class="post-title">Migrate from Jekyll</h1>
+      <section class="post-content">
+        <h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
 <p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
 With Jekyll, something that looked like</p>
 <pre><code>▾ &lt;root&gt;/
@@ -278,121 +228,32 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
 <h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
 <p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
-</div>
+
+      </section>
+    </article>
+  </main>
+<footer class="site-footer">
+  <div class="inner">
+    
+      <section class="copyright">© Jane Doe</section>
+
+
+    <section></section>
+    
+      <section>
+        <a href="https://themes.gohugo.io/hugo-scroll/">Design</a> template
+        built with ♥️ by
+        <a href="https://www.janraasch.com" title="Jan Raasch">Jan Raasch</a>
+      </section>
+
+  </div>
+</footer>
+
+    <script type="text/javascript" src='https://example.com/js/jquery-1.11.3.min.js'></script>
 
     
+    <script type="text/javascript" src='https://example.com/js/icons.js'></script>
+    <script type="text/javascript" src='https://example.com/js/index.js'></script>
     
-    
-        <h4 class="page-header">Related</h4>
-         <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/creating-a-new-theme/">Creating a New Theme</a></h4>
-    <h5>September 28, 2014</h5>
-    
-<a href="http://example.com/tags/go"><kbd class="item-tag">go</kbd></a>
-
-<a href="http://example.com/tags/golang"><kbd class="item-tag">golang</kbd></a>
-
-<a href="http://example.com/tags/hugo"><kbd class="item-tag">hugo</kbd></a>
-
-<a href="http://example.com/tags/themes"><kbd class="item-tag">themes</kbd></a>
-
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/hugoisforlovers/">Getting Started with Hugo</a></h4>
-    <h5>April 2, 2014</h5>
-    
-<a href="http://example.com/tags/go"><kbd class="item-tag">go</kbd></a>
-
-<a href="http://example.com/tags/golang"><kbd class="item-tag">golang</kbd></a>
-
-<a href="http://example.com/tags/hugo"><kbd class="item-tag">hugo</kbd></a>
-
-<a href="http://example.com/tags/development"><kbd class="item-tag">development</kbd></a>
-
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/goisforlovers/">(Hu)go Template Primer</a></h4>
-    <h5>April 2, 2014</h5>
-    
-<a href="http://example.com/tags/go"><kbd class="item-tag">go</kbd></a>
-
-<a href="http://example.com/tags/golang"><kbd class="item-tag">golang</kbd></a>
-
-<a href="http://example.com/tags/template"><kbd class="item-tag">template</kbd></a>
-
-<a href="http://example.com/tags/themes"><kbd class="item-tag">themes</kbd></a>
-
-<a href="http://example.com/tags/development"><kbd class="item-tag">development</kbd></a>
-
-
-
-</div>
- 
-    
-
-    
-    
-        <h4 class="page-header">Comments</h4>
-        <div id="disqus_thread"></div>
-<script type="application/javascript">
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "username" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
-
-</main>
-
-        <footer>
-            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
-        </footer>
-
-        
-
-        
-    </body>
-
+</body>
 </html>
-
