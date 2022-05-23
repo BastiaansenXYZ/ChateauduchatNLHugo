@@ -1,3 +1,6 @@
 [submodule "ChateauDuChatNLHugo/themes/themes/pulp"]
 	path = ChateauDuChatNLHugo/themes/themes/pulp
 	url = https://github.com/koirand/pulp.git
+[submodule "ChateauDuChatNLHugo/themes/minimal"]
+	path = ChateauDuChatNLHugo/themes/minimal
+	url = https://github.com/calintat/minimal.git
