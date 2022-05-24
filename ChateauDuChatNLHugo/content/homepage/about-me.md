@@ -1,13 +1,10 @@
 ---
-title: "About Me"
+title: "Over ons"
 weight: 3
 header_menu: true
 ---
 
-![Jane Doe](images/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg)
+Leuk dat je ondertussen al zover hebt gekeken op onze website. Natuurlijk wil je weten wie er nu voor jouw kat gaat zorgen, en waarom juist wij dat zo goed kunnen!
 
-##### Professionel Experience
+Wij hebben al jarenlang ervaring met vrijwilligerswerk binnen de kattenverzorging. Denk hierbij aan het bieden van onderdak aan katten die even geen huisje hebben, het helpen van lokale asiels bij het verzorgen van gevonden kittens. Ook hebben wij zelf 6 eigen katten te verzorgen. Waarvan sommigen ook echt bijzondere zorg en aandacht vereisen. Wij willen onze opgedane kennis en kunde dan ook echt inzetten om anderen te helpen!
 
-A lot, but let us get into the details with some lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat lectus et magna placerat tincidunt. Nullam sit amet lectus vitae elit mollis rhoncus non eget lorem. Ut tempor sed dui quis volutpat.
-
-In ultrices, est at lobortis pretium, magna quam mollis neque, id viverra odio est sit amet lorem. Mauris efficitur nunc vel lectus porttitor, sit amet sodales quam eleifend. Duis et felis ut mauris dignissim efficitur. Aliquam non sem eros. Integer elit ante, bibendum id hendrerit vitae, vestibulum eget risus. Nunc efficitur nisl in iaculis vestibulum.

@@ -4,8 +4,8 @@ weight: 4
 header_menu: true
 ---
 
-{{<icon class="fa fa-envelope">}}&nbsp;[mail@janedoe.com](mailto:your-email@your-domain.com)
+{{<icon class="fa fa-envelope">}}&nbsp;[info@chateauduchat.nl](mailto:info@chateauduchat.nl)
 
-{{<icon class="fa fa-phone">}}&nbsp;[+49 1111 555555](tel:+491111555555)
+{{<icon class="fa fa-phone">}}&nbsp;[+31 6 14597612](tel:+31614597612)
 
-Let us get in touch!
+Neem contact met ons op!
