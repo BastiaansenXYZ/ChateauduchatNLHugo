@@ -14,7 +14,7 @@ Uw kat of poes voelt zich natuurlijk het beste thuis in zijn eigen paleisje. Daa
 
 Dit houd in dat wij natuurlijk even langskomen, voer geven en even spelen met uw lieve beestje. Het standaard huisbezoek is bedoeld voor één kat. Daarbij komen wij één keer per dag langs.
 
-### Tarieven
+#### Tarieven
 
 Huisbezoek: €5,- + €0,19/km
 
@@ -22,6 +22,9 @@ Extras:
 
 - Extra kat per bezoek (per dag): €2,-
 - Medicatie toedienen (per kat, per dag): €2,-
+- Extra bezoekmoment (per dag, ongeacht het aantal katten): €2 + €0,19/km
+
+(Wij rekenen elke km vanaf het centrum van Hoogezand (Groningen))
 
 ---
 
