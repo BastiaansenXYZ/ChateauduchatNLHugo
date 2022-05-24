@@ -1,37 +1,30 @@
 ---
-title: "Services"
+title: "Aanbod"
 weight: 2
 header_menu: true
 ---
 
-That is the important part, right? You want to know what I can do for you. This is why I put this right up there into the header menu of the website.
+Bij ons kan je op verschillende manieren zorg voor je kat of poes vragen!
 
 ---
 
-## Nutrition Coaching
+## Huisbezoek
 
-This is not an easy task. You will likely have to pay money for this. You know what - let us look at a nice picture first.
+Uw kat of poes voelt zich natuurlijk het beste thuis in zijn eigen paleisje. Daarom kunnen wij, na een goed gesprek waar we een vertrouwensband opbouwen, een huisbezoek verzorgen.
 
-![Nice picture to make you pay me ;-)](images/selective-focus-photography-of-pasta-with-tomato-and-basil-1279330.jpg)
+Dit houd in dat wij natuurlijk even langskomen, voer geven en even spelen met uw lieve beestje. Het standaard huisbezoek is bedoeld voor één kat. Daarbij komen wij één keer per dag langs.
 
-Wow. That was nice, right? Well, call me and let us talk.
+### Tarieven
 
----
+Huisbezoek: €5,- + €0,19/km
 
-## Chef Consulting
+Extras:
 
-Did you see the picture above? I can show you how to go from
-
-![Let us get started on a clean slate](images/board-bunch-cooking-food-349609.jpg)
-
-to
-
-![Let us get started on a clean slate](images/woman-pouring-juice-on-glass-3184192.jpg)
-
-in estimated seconds.
+- Extra kat per bezoek (per dag): €2,-
+- Medicatie toedienen (per kat, per dag): €2,-
 
 ---
 
-Want to learn more about my services?
+## Kattenopvang
 
-Check out [this page](services) I created. It carries a lot more details...
+Op dit moment verzorgen wij nog géén opvang. Wij willen in de toekomst zeker wel toewerken naar deze optie!
