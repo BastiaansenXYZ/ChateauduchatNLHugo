@@ -16,15 +16,15 @@ Dit houd in dat wij natuurlijk even langskomen, voer geven en even spelen met uw
 
 #### Tarieven
 
-Huisbezoek: €5,- + €0,19/km
+Huisbezoek: €6,- + €0,21/km
 
 Extras:
 
 - Extra kat per bezoek (per dag): €2,-
 - Medicatie toedienen (per kat, per dag): €2,-
-- Extra bezoekmoment (per dag, ongeacht het aantal katten): €2 + €0,19/km
+- Extra bezoekmoment (per dag, ongeacht het aantal katten): €3 + €0,21/km
 
-(Wij rekenen elke km vanaf het centrum van Hoogezand (Groningen))
+(Wij rekenen elke km vanaf het centrum van Oudenbosch (Noord-Brabant)
 
 ---
 
