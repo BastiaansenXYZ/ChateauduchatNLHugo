@@ -17,6 +17,7 @@ Dit houdt in dat wij even langskomen, voer geven en even spelen met uw lieve bee
 #### Tarieven
 
 Huisbezoek (per dag): €8,- + €0,23/km
+
 Opvang (per dag): €8,- per dag
 
 Extras:
