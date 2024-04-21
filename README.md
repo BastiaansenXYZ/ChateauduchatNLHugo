@@ -1,2 +1,2 @@
 # ChateauduchatNLHugo
-Content of the Chateauduchat website
+Content of the Chateauduchat website.
