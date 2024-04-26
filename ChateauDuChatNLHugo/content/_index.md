@@ -1,5 +1,5 @@
 ---
 header_image:
-header_headline: Chateau Du Chat
+header_headline: "images/cover-image.png"
 header_subheadline:
 ---
