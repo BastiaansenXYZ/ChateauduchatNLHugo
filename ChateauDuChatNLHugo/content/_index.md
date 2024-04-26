@@ -1,5 +1,5 @@
 ---
-header_image: 
+header_image: "cover-image.png"
 header_headline: "test"
-header_subheadline:
+header_subheadline: "test"
 ---
