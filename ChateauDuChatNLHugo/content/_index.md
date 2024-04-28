@@ -1,6 +1,6 @@
 ---
 header_image: ""
-header_headline: ""
+header_headline: "Château du Chat"
 header_subheadline: ""
-header_logo: "cover-image.png"
+header_logo: "images/cover-image.png"
 ---
