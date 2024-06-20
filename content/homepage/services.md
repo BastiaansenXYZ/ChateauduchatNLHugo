@@ -24,9 +24,3 @@ Extras:
 - Extra bezoekmoment (per dag, ongeacht het aantal katten): €5,-
 
 (Wij rekenen elke km vanaf het centrum van Oudenbosch (Noord-Brabant)
-
----
-
-## Kattenopvang
-
-Wij hebben beperkt ruimte voor opvang, en kunnen dit onder voorwaarden bieden voor uw kat!
