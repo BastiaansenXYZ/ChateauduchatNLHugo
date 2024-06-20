@@ -15,15 +15,13 @@ Dit houdt in dat wij even langskomen, voer geven en even spelen met uw lieve bee
 
 #### Tarieven
 
-Huisbezoek (per dag): €8,- + €0,23/km
-
-Opvang (per dag): €8,- per dag
+Huisbezoek (per dag): €12,-
 
 Extras:
 
-- Extra kat per bezoek (per dag): €3,-
+- Extra kat per bezoek (per dag): €1,50
 - Medicatie toedienen (per kat, per dag): €2,-
-- Extra bezoekmoment (per dag, ongeacht het aantal katten): €4 + €0,23/km
+- Extra bezoekmoment (per dag, ongeacht het aantal katten): €5,-
 
 (Wij rekenen elke km vanaf het centrum van Oudenbosch (Noord-Brabant)
 
